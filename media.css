@@ -1,0 +1,188 @@
+@media screen and (max-width:991px){
+             
+          #menu{
+                   display:block;
+                   padding-right:20px;
+
+          }
+          .style2{
+                      padding-left: 20px;
+          }
+
+          .style2{
+                     overflow: initial;
+          }
+          .nav1{
+                   position: absolute;
+                   background-color: white;
+                   left: -100%;
+                   top: 100%;
+                   width: 100%;
+                   border-radius: 15px;
+                   padding-block: 20px;
+                   transition: 0.2s ease-in-out;
+          }
+          .nav1.active{
+                               left: 0;
+          }
+          .nav1 ul{
+                      flex-direction: column;
+          }
+          .card0{
+                     justify-content: center;
+                     flex-wrap: wrap;
+                     padding: 30px 0px;
+                     gap: 20px;
+
+          }
+          .cdk{
+                 width: 48%;
+                 height: 180px; 
+                 background-position: center;  
+                 margin-block: 0;   
+          }
+          .cd{
+               font-size: 21px;
+          }
+          .companys{
+                      gap:30px;
+                      justify-content: center;
+          }
+          .features2{
+                        margin-top: 50px;
+          }
+          .design0{
+                      gap: 40px;
+          }
+
+          .marketers0{
+                         gap: 40px;
+          }
+          .cta{
+                padding: 50px;
+                text-align: center;
+          }
+          .footer1{
+                    padding: 60px 20px;
+          } 
+          .sub-footer0 {
+               padding: 15px 0;
+               /* justify-content: center; */
+           }
+
+
+
+}
+
+@media screen  and (max-width:767px) {
+
+                  .header{
+
+                       flex-direction:column-reverse;  
+                       padding: 20px;
+                  }
+
+                  h1{
+                       text-align: center;
+                       font-size: 41px;
+                  }
+                  .left{
+                         width: 100%;
+                  }
+
+                  p {
+                    
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+                .methodlogy{
+                              min-width: 50%;
+                              justify-content: center
+                }
+                .Sign-up{
+                    display: table;
+                    margin: 0 auto;
+                }
+                .world{
+                        margin-top: 0;
+                }
+                .design0{
+                            flex-direction: column; 
+                            justify-content: flex-start;
+                }
+                .design1{
+                           padding-inline: 40px;
+                }
+                .design2{
+                           width: 100%;
+                           justify-content: end;
+                           padding-inline: 20px;
+                }
+                .marketers0{
+                                flex-direction: column-reverse;
+                }
+                .marketers2{
+                             padding-inline: 40px;
+                }
+                .marketers1{
+                              width: 100%;
+                              padding-inline: 20px;
+                }
+                .posibilities1 {
+                                  font-size: 30px;
+                }
+
+
+                .footer1{
+                             flex-direction: column;
+                             align-items: center;
+                             gap: 40px;
+                             text-align: center;
+                }
+                .Product{
+                           align-items: center;
+                }
+     
+                .card0{
+                           gap:15px;
+                }
+                h2{
+                     padding-inline: 10px;
+                     font-size: 28px;
+                }
+}
+
+@media screen  and (max-width:479px){
+      
+                                        h1{
+                                              font-size: 32px;
+                                              margin-block: 15px;
+                                        }
+                                        h2{
+                                             font-size: 24px;
+                                        }
+                                        h4{
+                                              font-size: 21px;
+                                        }
+                                        h5{
+                                             font-size: 24px;
+                                        }
+
+                                        .methodlogy {
+                                             min-width: 100%;
+                                        
+                                         }
+                                         .posibilities1 {
+                                             font-size: 28px;
+                                         }
+                                         .cdk{
+                                               width: 100%;
+                                         }
+                                         .left{
+                                                padding: 0;
+                                         }
+                                         .companys {
+                                             gap: 25px;
+                                            
+                                         }
+}
